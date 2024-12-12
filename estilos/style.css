@@ -23,7 +23,7 @@ main{
 
 h1{
     padding-left: 40px;
-    font-size: 2em;
+    font-size: 1.6em;
     /* width: 98vh; */
     height: 60px;
     color: rgb(136, 129, 129);
@@ -31,6 +31,8 @@ h1{
 
 section{
     margin-bottom: 250px;
+    position: absolute;
+    
 }
 
 section>p{
@@ -43,10 +45,12 @@ section>p{
 
 
 a{
-    /* padding: 10px 140px;
-    margin: 20px 60px; */
-    /* width: 30px;
-    height: 60px; */
+    display: block;
+    left: 25%;
+    position: relative;
+    padding: 15px;
+    width: 210px;
+    height: 20px;
     background-color: #ffc107;
     color: white;
     text-decoration: none;
