@@ -7,9 +7,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html,body{
-    width: 98vw;
-    height: 98vh;
+main{
+    /* width: 98vw; */
     
 }
 
@@ -25,27 +24,32 @@ html,body{
 h1{
     padding-left: 40px;
     font-size: 2em;
-    width: 98vh;
+    /* width: 98vh; */
     height: 60px;
     color: rgb(136, 129, 129);
 }
 
+section{
+    margin-bottom: 250px;
+}
+
 section>p{
     color: rgb(121, 120, 161);
-    width: 80vh;
+    /* width: 80vh; */
     padding: 10px;
+    margin: 10px;
    
 }
 
 
-
 a{
-    padding: 5px 50px;
-    margin: 100px;
-    width: 30px;
-    height: 60px;
+    /* padding: 10px 140px;
+    margin: 20px 60px; */
+    /* width: 30px;
+    height: 60px; */
     background-color: #ffc107;
     color: white;
     text-decoration: none;
     font-weight: bolder;
+    border-radius: 25px;
 }
